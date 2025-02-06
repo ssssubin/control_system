@@ -22,6 +22,7 @@
 
 2. 차량이 2m 이내로 들어오고 5초 이상 머물 시, 카메라로 해당 차량 촬영
    - 카메라로 촬영한 이미지를 yolov5를 사용하여 번호판 인식한 후, bounding box 좌표를 가져와 crop하여 사진 저장
+     
     ![image](https://github.com/user-attachments/assets/696ab92d-1b48-4d25-835a-fec7f23ee3bf)
 
 3. crop한 사진에 pytesseract 적용하여 해당 차량 번호 출력
@@ -39,9 +40,11 @@
 
 ## 📹시연 동영상
 **< 주간 시연 영상 >**
+
 https://github.com/user-attachments/assets/b319e9ea-bb4f-4474-8462-9ed867ea88fe
 
 **< 야간 시연 영상 >**
+
 https://github.com/user-attachments/assets/be3d34cd-cc85-4b21-9c03-14912df8d8c6
 
 
